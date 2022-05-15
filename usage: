@@ -1,0 +1,10 @@
+Usage: filter [flag] infile outfile
+
+flag are: 
+-g for grayscale
+-r for reflection
+-b for blur
+-e for edge detection
+
+example:
+./filter -e images/courtyard.bmp out.bmp
